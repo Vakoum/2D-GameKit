@@ -1,0 +1,187 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 457c5483d09aa684bbfd01bbfa161b3d, type: 3}
+  m_Name: Clarise
+  m_EditorClassIdentifier: 
+  speedbased: 0
+  anims:
+  - animName: Hit
+    animSpeed: 1
+    animFrameSpeed:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 5.5153503
+        outSlope: 5.5153503
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.18948732
+        value: 1.045089
+        inSlope: 5.5153503
+        outSlope: 5.5153503
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.36940384
+        value: 2.0373917
+        inSlope: 5.5153503
+        outSlope: 5.5153503
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.54665476
+        value: 3.0149927
+        inSlope: 5.515351
+        outSlope: 5.515351
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.7279727
+        value: 4.0150247
+        inSlope: 5.515351
+        outSlope: 5.515351
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.9113243
+        value: 5.0262733
+        inSlope: 5.5153513
+        outSlope: 5.5153513
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.0984269
+        value: 6.05821
+        inSlope: 5.5153522
+        outSlope: 5.5153522
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.2756778
+        value: 7.035811
+        inSlope: 5.5153503
+        outSlope: 5.5153503
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.44444
+        value: 7.9665933
+        inSlope: 5.5153484
+        outSlope: 5.5153484
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.6325799
+        value: 9.004251
+        inSlope: 5.5153503
+        outSlope: 5.5153503
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.8058877
+        value: 9.960104
+        inSlope: 5.5153503
+        outSlope: 5.5153503
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 2.0004592
+        value: 11.033234
+        inSlope: 5.631885
+        outSlope: 5.631885
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.6602912
+      - serializedVersion: 3
+        time: 2.201333
+        value: 12.029271
+        inSlope: 4.9585223
+        outSlope: 4.9585223
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    sprites:
+    - {fileID: -588807657412268366, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: 9179032608739449024, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -3877620257457255119, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: 2500956157757285959, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -4083070996681832365, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -8107622346002135424, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -7710410600457851782, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -7754381172558442346, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: 3789237926160094590, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: 1875165076936298313, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -235935440454525965, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -4270422913719397818, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+  - animName: halfHit
+    animSpeed: 1
+    animFrameSpeed:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 6
+        value: 6
+        inSlope: 1
+        outSlope: 1
+        tangentMode: 34
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    sprites:
+    - {fileID: -7710410600457851782, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -7754381172558442346, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: 3789237926160094590, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: 1875165076936298313, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -235935440454525965, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
+    - {fileID: -4270422913719397818, guid: bf3101b4f43c5ed4d81dacd14e214d9c, type: 3}
